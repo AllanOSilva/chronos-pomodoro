@@ -7,12 +7,34 @@ export function App(){
     
     return (
         <>
-            <Heading>Olá mundo!
-                <button>
-                    <TimerIcon />
-                </button>
-            </Heading>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eum voluptatibus esse illum provident laboriosam, suscipit deleniti voluptas qui! Magnam beatae labore perspiciatis nulla? Natus, ex error. Saepe, placeat deleniti?</p>
+            <div className="container">
+                <div className="content">
+                    <section>
+                        LOGO
+                    </section>
+                </div>
+            </div>
+            <div className="container">
+                <div className="content">
+                    <section>
+                        MENU
+                    </section>
+                </div>
+            </div>
+            <div className="container">
+                <div className="content">
+                    <section>
+                        FORM
+                    </section>
+                </div>
+            </div>
+            <div className="container">
+                <div className="content">
+                    <section>
+                        FOOTER
+                    </section>
+                </div>
+            </div>
         </>
     );
 }
